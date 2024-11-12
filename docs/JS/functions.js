@@ -11,7 +11,7 @@ function viewDate(){
     document.getElementById("year").innerHTML =  mydate.getFullYear();
     //document.getElementById("my_time").innerHTML = mydate.getTime();
   };
-
+  
   function toMysite(){
     document.getElementById('logo1').onclick = function() {
              window.location.href = "https://of-the-mathematics-btj-a5d29.firebaseapp.com/";
